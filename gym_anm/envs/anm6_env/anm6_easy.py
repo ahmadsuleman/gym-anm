@@ -121,7 +121,7 @@ def _get_gen_time_series():
     s12 = np.linspace(0.5, 3.5, 7)
     s2 = 4 * np.ones(13)
     s23 = np.linspace(7.25, 36.75, 7)
-    s3 = 30 * np.ones(13)
+    s3 = 130 * np.ones(13)   # Made 130 from 30
     P2 = np.concatenate((s1, s12, s2, s23, s3, s23[::-1], s2, s12[::-1],
                          s1[:4]))
 
@@ -130,7 +130,7 @@ def _get_gen_time_series():
     s12 = np.linspace(36.375, 14.625, 7)
     s2 = 11 * np.ones(13)
     s23 = np.linspace(14.725, 36.375, 7)
-    s3 = 40 * np.ones(13)
+    s3 = 140 * np.ones(13)  # made 140 from 40
     P4 = np.concatenate((s1, s12, s2, s23, s3, s23[::-1], s2, s12[::-1],
                          s1[:4]))
 
